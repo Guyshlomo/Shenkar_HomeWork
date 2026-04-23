@@ -1,0 +1,85 @@
+#our_scents {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #612999;
+}   
+.scents_cards {
+    display: flex;
+    margin-left: 32px;
+    margin-right: 116px;
+    margin-top: 32px;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.scents_card {
+    border: 4px solid #E6DBFE;
+    height: 300px;            
+    flex: 0 0 auto;  
+    ;
+}
+
+.scents_cards img {
+    height: 100%;            
+    width: auto;              
+ }
+
+ .list {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+
+}
+.list h2, .MyChoice h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #612999;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 32px;
+}
+.list ul{
+    margin-top: 16px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 141%;
+    padding-left: 32px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.list li {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.list li::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background-image:
+    url('../Imges/Rocket.png'),
+    url('../Imges/cercle_rocket.png');
+  background-size: 29px 42.384px, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  flex-shrink: 0;
+}
+
+.MyChoice{
+   margin: 32px 32px 198px 32px;
+}
+
+.MyChoice_video{
+    height: 0 auto;
+    width: 100%;
+    
+}
