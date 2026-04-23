@@ -70,7 +70,7 @@ a {
     font-family: 'Nunito', sans-serif;
 
 }
-.link_navbar:hover {
+.navbar a:hover {
     color: #6802dc; 
 }
 
